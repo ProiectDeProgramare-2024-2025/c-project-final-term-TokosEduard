@@ -235,7 +235,6 @@ void cancelReservation() {
         return;
     }
 
-    // Mutam produsele ramase cu o pozitie la stanga
     for (int i = choice - 1; i < reservedCount - 1; i++) {
         reservedItems[i] = reservedItems[i + 1];
     }
@@ -283,6 +282,6 @@ int main() {
         }
 
         printf("\nApasa ENTER pentru a continua...");
-        getchar(); // pauza
+        getchar(); 
     }
 }
